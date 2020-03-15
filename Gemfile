@@ -47,7 +47,7 @@ gem 'hypdf', '~> 1.0.10'          # PDFInfoAgent
 gem 'weibo_2', github: 'albertsun/weibo_2', branch: 'master'
 
 # GoogleCalendarPublishAgent and GoogleTranslateAgent
-gem 'google-api-client', '~> 0.13'
+gem 'google-api-client'
 gem 'google-cloud-translate', require: 'google/cloud/translate'
 
 # Twitter Agents
