@@ -262,6 +262,8 @@ GEM
       rails (>= 3.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    gmail_xoauth (0.4.2)
+      oauth (>= 0.3.6)
     google-api-client (0.37.2)
       addressable (~> 2.5, >= 2.5.1)
       googleauth (~> 0.9)
@@ -707,6 +709,7 @@ DEPENDENCIES
   foreman (~> 0.63.0)
   geokit (~> 1.8.4)
   geokit-rails (~> 2.2.0)
+  gmail_xoauth
   google-api-client
   google-cloud-translate
   guard (~> 2.14.1)
