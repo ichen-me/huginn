@@ -68,6 +68,13 @@ GIT
       treetop (>= 1.2.3)
 
 GIT
+  remote: https://github.com/huginn/omniauth-dropbox-oauth2.git
+  revision: 9468fb33af0af2bad880dcfb42236fde474017a2
+  specs:
+    omniauth-dropbox-oauth2 (0.3.0)
+      omniauth-oauth2 (>= 1.6.0)
+
+GIT
   remote: https://github.com/sferik/twitter.git
   revision: d11707edf4abd13f7ada0eef57fc1eaa1062d75b
   specs:
@@ -739,6 +746,7 @@ DEPENDENCIES
   nokogiri (>= 1.10.8)
   omniauth
   omniauth-37signals
+  omniauth-dropbox-oauth2!
   omniauth-evernote
   omniauth-google-oauth2 (>= 0.8.0)
   omniauth-tumblr
